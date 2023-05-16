@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Relevamiento.RelevamientoMenu</StartupObject>
+    <MyType>WindowsForms</MyType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\corpba-confmgr\e%24\_ITSoporte\Relevamiento\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>Relevamiento.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineDebug>false</DefineDebug>
+    <DocumentationFile>Relevamiento.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F943C643053ADE289FBCA37BD9A76B76718572C5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Relevamiento_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>chiphead_101128.ico</ApplicationIcon>
+    <ImportedNamespaces>System.Data=False,System.Data.SqlClient=False,System.Drawing=False,System.Management=False,System.Web=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,Relevamiento=True</ImportedNamespaces>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Management" />
+    <Import Include="System.Web" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ADQuery.Designer.vb">
+      <DependentUpon>ADQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Carteles.Designer.vb">
+      <DependentUpon>Carteles.vb</DependentUpon>
+    </Compile>
+    <Compile Update="CIA_query.Designer.vb">
+      <DependentUpon>CIA_query.vb</DependentUpon>
+    </Compile>
+    <Compile Update="DellWarranty.Designer.vb">
+      <DependentUpon>DellWarranty.vb</DependentUpon>
+    </Compile>
+    <Compile Update="ePO.Designer.vb">
+      <DependentUpon>ePO.vb</DependentUpon>
+    </Compile>
+    <Compile Update="RelevamientoMenu.Designer.vb">
+      <DependentUpon>RelevamientoMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Update="RelevamientoEdificios.Designer.vb">
+      <DependentUpon>RelevamientoEdificios.vb</DependentUpon>
+    </Compile>
+    <Compile Update="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Tablet.Designer.vb">
+      <DependentUpon>Tablet.vb</DependentUpon>
+    </Compile>
+    <Compile Update="SalasReunion.Designer.vb">
+      <DependentUpon>SalasReunion.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Touch.Designer.vb">
+      <DependentUpon>Touch.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Impresoras.Designer.vb">
+      <DependentUpon>Impresoras.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Servidores.Designer.vb">
+      <DependentUpon>Servidores.vb</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chiphead_101128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="System.DirectoryServices" Version="7.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Management">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management.Instrumentation">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.Instrumentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
