@@ -23,12 +23,12 @@ Partial Class RelevamientoEdificios
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(RelevamientoEdificios))
-        TextBox5 = New TextBox()
+        txtCP = New TextBox()
         Label6 = New Label()
-        TextBox3 = New TextBox()
+        txtProvincia = New TextBox()
         Label4 = New Label()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        txtLocalidad = New TextBox()
+        txtDireccion = New TextBox()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
@@ -48,15 +48,15 @@ Partial Class RelevamientoEdificios
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
-        ' TextBox5
+        ' txtCP
         ' 
-        TextBox5.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox5.Location = New Point(82, 107)
-        TextBox5.Margin = New Padding(4, 3, 4, 3)
-        TextBox5.Name = "TextBox5"
-        TextBox5.ReadOnly = True
-        TextBox5.Size = New Size(75, 21)
-        TextBox5.TabIndex = 35
+        txtCP.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCP.Location = New Point(82, 107)
+        txtCP.Margin = New Padding(4, 3, 4, 3)
+        txtCP.Name = "txtCP"
+        txtCP.ReadOnly = True
+        txtCP.Size = New Size(75, 21)
+        txtCP.TabIndex = 35
         ' 
         ' Label6
         ' 
@@ -70,15 +70,15 @@ Partial Class RelevamientoEdificios
         Label6.Text = "CP"
         Label6.TextAlign = ContentAlignment.TopRight
         ' 
-        ' TextBox3
+        ' txtProvincia
         ' 
-        TextBox3.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox3.Location = New Point(335, 76)
-        TextBox3.Margin = New Padding(4, 3, 4, 3)
-        TextBox3.Name = "TextBox3"
-        TextBox3.ReadOnly = True
-        TextBox3.Size = New Size(209, 21)
-        TextBox3.TabIndex = 31
+        txtProvincia.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtProvincia.Location = New Point(335, 76)
+        txtProvincia.Margin = New Padding(4, 3, 4, 3)
+        txtProvincia.Name = "txtProvincia"
+        txtProvincia.ReadOnly = True
+        txtProvincia.Size = New Size(209, 21)
+        txtProvincia.TabIndex = 31
         ' 
         ' Label4
         ' 
@@ -92,25 +92,25 @@ Partial Class RelevamientoEdificios
         Label4.Text = "Provincia"
         Label4.TextAlign = ContentAlignment.TopRight
         ' 
-        ' TextBox2
+        ' txtLocalidad
         ' 
-        TextBox2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox2.Location = New Point(82, 76)
-        TextBox2.Margin = New Padding(4, 3, 4, 3)
-        TextBox2.Name = "TextBox2"
-        TextBox2.ReadOnly = True
-        TextBox2.Size = New Size(184, 21)
-        TextBox2.TabIndex = 29
+        txtLocalidad.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtLocalidad.Location = New Point(82, 76)
+        txtLocalidad.Margin = New Padding(4, 3, 4, 3)
+        txtLocalidad.Name = "txtLocalidad"
+        txtLocalidad.ReadOnly = True
+        txtLocalidad.Size = New Size(184, 21)
+        txtLocalidad.TabIndex = 29
         ' 
-        ' TextBox1
+        ' txtDireccion
         ' 
-        TextBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox1.Location = New Point(82, 45)
-        TextBox1.Margin = New Padding(4, 3, 4, 3)
-        TextBox1.Name = "TextBox1"
-        TextBox1.ReadOnly = True
-        TextBox1.Size = New Size(462, 21)
-        TextBox1.TabIndex = 28
+        txtDireccion.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDireccion.Location = New Point(82, 45)
+        txtDireccion.Margin = New Padding(4, 3, 4, 3)
+        txtDireccion.Name = "txtDireccion"
+        txtDireccion.ReadOnly = True
+        txtDireccion.Size = New Size(462, 21)
+        txtDireccion.TabIndex = 28
         ' 
         ' Label3
         ' 
@@ -245,12 +245,12 @@ Partial Class RelevamientoEdificios
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(560, 141)
         Controls.Add(MenuStrip1)
-        Controls.Add(TextBox5)
+        Controls.Add(txtCP)
         Controls.Add(Label6)
-        Controls.Add(TextBox3)
+        Controls.Add(txtProvincia)
         Controls.Add(Label4)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(txtLocalidad)
+        Controls.Add(txtDireccion)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
@@ -268,12 +268,12 @@ Partial Class RelevamientoEdificios
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtCP As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtProvincia As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtLocalidad As TextBox
+    Friend WithEvents txtDireccion As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label

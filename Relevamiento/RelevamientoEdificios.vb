@@ -19,7 +19,7 @@
                 myConn = New SqlConnection("Data Source=CORPBA-SQL;Initial Catalog=Relevamiento;Integrated Security=True")
                 myConn.Open()
                 myCmd = myConn.CreateCommand
-                myCmd.CommandText = "Update Edificios set Direccion='" & TextBox1.Text & "',Localidad='" & TextBox2.Text & "',Provincia='" & TextBox3.Text & "',CP='" & TextBox5.Text & " where id_Edificio='" & ID_Edificio & "'"
+                myCmd.CommandText = "Update Edificios set Direccion='" & txtDireccion.Text & "',Localidad='" & txtLocalidad.Text & "',Provincia='" & txtProvincia.Text & "',CP='" & txtCP.Text & " where id_Edificio='" & ID_Edificio & "'"
                 myCmd.ExecuteNonQuery()
                 myConn.Close()
                 MsgBox("Cambios guardados.", vbInformation)
@@ -54,12 +54,12 @@
         myReader.Read()
         ID_Edificio = myReader.GetInt32(0)
         ID_CAC = ID_Edificio
-        TextBox1.Text = myReader.GetString(2) ' Dirección
-        TextBox2.Text = myReader.GetString(3) ' Localidad
-        TextBox3.Text = myReader.GetString(4) ' Provincia
-        TextBox5.Text = myReader.GetString(5) ' CP
+        txtDireccion.Text = myReader.GetString(2) ' Dirección
+        txtLocalidad.Text = myReader.GetString(3) ' Localidad
+        txtProvincia.Text = myReader.GetString(4) ' Provincia
+        txtCP.Text = myReader.GetString(5) ' CP
         myConn.Close()
-        DireccionCAC = TextBox1.Text & ", " & TextBox2.Text & ", " & TextBox3.Text & ", CP " & TextBox5.Text
+        DireccionCAC = txtDireccion.Text & ", " & txtLocalidad.Text & ", " & txtProvincia.Text & ", CP " & txtCP.Text
     End Sub
 
     Private Sub CopiarDirecciónCompletaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CopiarDirecciónCompletaToolStripMenuItem.Click
@@ -100,21 +100,13 @@
     End Sub
 
     Private Sub ImprimirEtiquetaDeEnvíoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ImprimirEtiquetaDeEnvíoToolStripMenuItem.Click
-        'msgAndreani = MsgBox("¿Va por Andreani? (No: Correo Argentino)", vbQuestion + vbYesNo)
 #Disable Warning CA1416
         RemitoDestinatario = StrConv(InputBox("Destinatario:"), vbProperCase)
-        'If msgAndreani = vbYes Then
-        ' Andreani = True
-        ' RemitoNro = InputBox("Número de remito", "", "1042-0000XXXX")
-        ' Else
-        ' Andreani = False
-        ' RemitoNro = InputBox("Número de caja", "", "1")
-        ' End If
         NroCaja = InputBox("Cantidad de cajas", "", "1")
-        RemitoDireccion = TextBox1.Text
-        RemitoLocalidad = TextBox2.Text
-        RemitoProvincia = TextBox3.Text
-        RemitoCP = TextBox5.Text
+        RemitoDireccion = txtDireccion.Text
+        RemitoLocalidad = txtLocalidad.Text
+        RemitoProvincia = txtProvincia.Text
+        RemitoCP = txtCP.Text
         User = UCase(Environment.UserName)
         myConn = New SqlConnection("Data Source=CORPBA-SQL;Initial Catalog=Relevamiento;Integrated Security=True")
         myCmd = myConn.CreateCommand
@@ -142,19 +134,12 @@
 
     Private Sub ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem.Click
 #Disable Warning CA1416
-        'msgAndreani = MsgBox("¿Va por Andreani? (No: Correo Argentino)", vbQuestion + vbYesNo)
+
         RemitoDestinatario = StrConv(InputBox("Destinatario:"), vbProperCase)
         RemitoDireccion = StrConv(InputBox("Dirección:"), vbProperCase)
         RemitoLocalidad = StrConv(InputBox("Localidad:"), vbProperCase)
         RemitoProvincia = StrConv(InputBox("Provincia:"), vbProperCase)
         RemitoCP = InputBox("CP:")
-        'If msgAndreani = vbYes Then
-        ' Andreani = True
-        ' RemitoNro = InputBox("Número de remito", "", "1042-0000XXXX")
-        ' Else
-        ' Andreani = False
-        ' RemitoNro = InputBox("Número de caja", "", "1")
-        ' End If
         NroCaja = InputBox("Cantidad de cajas", "", "1")
         User = UCase(Environment.UserName)
         myConn = New SqlConnection("Data Source=CORPBA-SQL;Initial Catalog=Relevamiento;Integrated Security=True")
@@ -187,12 +172,13 @@
 
     Private Sub PrintDocument1_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
 #Disable Warning CA1416
-        Dim fntLabel As New Font("Gotham Light", 36, FontStyle.Bold)
-        Dim fntText As New Font("Gotham Light", 36, FontStyle.Regular)
-        Dim fntDireccion As New Font("Gotham Light", 36, FontStyle.Regular)
-        Dim fntCaja As New Font("Gotham Light", 24, FontStyle.Bold)
-        Dim fntRemito As New Font("Gotham Light", 12, FontStyle.Bold)
-        Dim fntRemitoNro As New Font("Gotham Light", 12, FontStyle.Regular)
+        Dim FontFace As String = "Gotham Light"
+        Dim fntLabel As New Font(FontFace, 36, FontStyle.Bold)
+        Dim fntText As New Font(FontFace, 36, FontStyle.Regular)
+        Dim fntDireccion As New Font(FontFace, 36, FontStyle.Regular)
+        Dim fntCaja As New Font(FontFace, 24, FontStyle.Bold)
+        Dim fntRemito As New Font(FontFace, 12, FontStyle.Bold)
+        Dim fntRemitoNro As New Font(FontFace, 12, FontStyle.Regular)
         Dim LineSpace As Integer = 140
         Dim LeftMargin As Integer = PrintDocument1.DefaultPageSettings.Margins.Left
         Dim RightMargin As Integer = PrintDocument1.DefaultPageSettings.Margins.Right
@@ -207,13 +193,11 @@
         Dim StringSize3 As SizeF = e.Graphics.MeasureString(RemitoLocalidad, fntText)
         Dim StringSize4 As SizeF = e.Graphics.MeasureString(RemitoProvincia, fntText)
         Dim StringSize5 As SizeF = e.Graphics.MeasureString(RemitoCP, fntText)
-        'Dim StringSize6 As SizeF = e.Graphics.MeasureString("2411 (Claro AR - AMX)", fntRemitoNro)
-        'Dim StringSize7 As SizeF = e.Graphics.MeasureString(RemitoNro, fntRemitoNro)
         Dim RemitoRect As New Rectangle()
         Dim Hoy As Date = Today.ToShortDateString
 
         For i = 36 To 20 Step -1
-            fntDireccion = New Font("Gotham Light", i, FontStyle.Regular)
+            fntDireccion = New Font(FontFace, i, FontStyle.Regular)
             StringSize2 = e.Graphics.MeasureString(RemitoDireccion, fntDireccion)
             If StringSize2.Width < 1100 Then
                 Exit For
@@ -237,23 +221,6 @@
         e.Graphics.DrawString("CP:", fntLabel, Brushes.Black, 585, TopMargin + LineSpace * 4, Format)
         e.Graphics.DrawString(RemitoCP, fntText, Brushes.Black, 585, TopMargin + LineSpace * 4 + StringSize5.Height - 5, Format)
 
-        'If Andreani = True Then
-        'RemitoRect.X = 752
-        'RemitoRect.Y = 700
-        'RemitoRect.Width = 365
-        'RemitoRect.Height = 60
-        'e.Graphics.DrawRectangle(Pens.Black, RemitoRect)
-        'e.Graphics.DrawLine(Pens.Black, 900, 700, 900, 760)
-        '
-        'e.Graphics.DrawString("Remitente", fntRemito, Brushes.Black, 808, 700)
-        'e.Graphics.DrawString(RemitoRemitente, fntRemitoNro, Brushes.Black, 900, 700)
-        '
-        'e.Graphics.DrawString("Cuenta corriente ", fntRemito, Brushes.Black, 752, 720)
-        'e.Graphics.DrawString("2411 (Claro AR - AMX)", fntRemitoNro, Brushes.Black, 900, 720)
-        '
-        'e.Graphics.DrawString("Remito", fntRemito, Brushes.Black, 835, 740)
-        'e.Graphics.DrawString(RemitoNro, fntRemitoNro, Brushes.Black, 900, 740)
-        'Else
         RemitoRect.X = 752
         RemitoRect.Y = 720
         RemitoRect.Width = 365
@@ -263,11 +230,8 @@
         e.Graphics.DrawString("Remitente", fntRemito, Brushes.Black, 808, 720)
         e.Graphics.DrawString(RemitoRemitente, fntRemitoNro, Brushes.Black, 900, 720)
 
-        'e.Graphics.DrawString("Caja N°", fntRemito, Brushes.Black, 830, 740)
-        'e.Graphics.DrawString(RemitoNro, fntRemitoNro, Brushes.Black, 900, 740)
         e.Graphics.DrawString("Fecha", fntRemito, Brushes.Black, 843, 740)
         e.Graphics.DrawString(Hoy, fntRemitoNro, Brushes.Black, 900, 740)
-        'End If
 
         e.Graphics.DrawString("Caja " & CurPage & "/" & NroCaja, fntLabel, Brushes.Black, 60, 720)
 
