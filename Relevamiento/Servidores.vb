@@ -23,10 +23,12 @@ Public Class Servidores
         txtFinGtia.Text = FinGtia
         txtObservaciones.Text = myReader.GetString(8)
         txtGateway.Text = myReader.GetString(9)
+        txtPassRoot.Text = myReader.GetValue(10)
         myConn.Close()
         lnkIDRAC.Links.Add(0, 12, "http://" & lnkIDRAC.Text)
         DiasGtia = DateDiff(DateInterval.DayOfYear, Now.Date, FinGtia)
         txtDias.Text = DiasGtia
+
         'If DiasGtia < 0 Then
         '    MsgBox("Garantía Expirada")
         'End If

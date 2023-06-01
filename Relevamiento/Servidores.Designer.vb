@@ -22,338 +22,360 @@ Partial Class Servidores
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtHostname = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtModel = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtServiceTag = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtOS = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtIP = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtFinGtia = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.txtObservaciones = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.DataSet1 = New System.Data.DataSet()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtDias = New System.Windows.Forms.TextBox()
-        Me.lnkIDRAC = New System.Windows.Forms.LinkLabel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.AccionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AbrirRDPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InfoGarantiaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.txtGateway = New System.Windows.Forms.TextBox()
-        CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
-        Me.SuspendLayout()
-        '
-        'txtHostname
-        '
-        Me.txtHostname.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHostname.Location = New System.Drawing.Point(95, 6)
-        Me.txtHostname.Name = "txtHostname"
-        Me.txtHostname.ReadOnly = True
-        Me.txtHostname.Size = New System.Drawing.Size(127, 21)
-        Me.txtHostname.TabIndex = 7
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(36, 9)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(55, 13)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Hostname"
-        '
-        'txtModel
-        '
-        Me.txtModel.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtModel.Location = New System.Drawing.Point(95, 32)
-        Me.txtModel.Name = "txtModel"
-        Me.txtModel.ReadOnly = True
-        Me.txtModel.Size = New System.Drawing.Size(200, 21)
-        Me.txtModel.TabIndex = 9
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(50, 35)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(41, 13)
-        Me.Label1.TabIndex = 8
-        Me.Label1.Text = "Modelo"
-        '
-        'txtServiceTag
-        '
-        Me.txtServiceTag.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtServiceTag.Location = New System.Drawing.Point(95, 58)
-        Me.txtServiceTag.Name = "txtServiceTag"
-        Me.txtServiceTag.ReadOnly = True
-        Me.txtServiceTag.Size = New System.Drawing.Size(80, 21)
-        Me.txtServiceTag.TabIndex = 11
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(28, 61)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 13)
-        Me.Label2.TabIndex = 10
-        Me.Label2.Text = "Service Tag"
-        '
-        'txtOS
-        '
-        Me.txtOS.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOS.Location = New System.Drawing.Point(95, 84)
-        Me.txtOS.Name = "txtOS"
-        Me.txtOS.ReadOnly = True
-        Me.txtOS.Size = New System.Drawing.Size(200, 21)
-        Me.txtOS.TabIndex = 13
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(12, 87)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(79, 13)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Sist. Operativo"
-        '
-        'txtIP
-        '
-        Me.txtIP.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIP.Location = New System.Drawing.Point(95, 110)
-        Me.txtIP.Name = "txtIP"
-        Me.txtIP.ReadOnly = True
-        Me.txtIP.Size = New System.Drawing.Size(80, 21)
-        Me.txtIP.TabIndex = 15
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(74, 113)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(17, 13)
-        Me.Label5.TabIndex = 14
-        Me.Label5.Text = "IP"
-        '
-        'txtFinGtia
-        '
-        Me.txtFinGtia.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinGtia.Location = New System.Drawing.Point(95, 186)
-        Me.txtFinGtia.Name = "txtFinGtia"
-        Me.txtFinGtia.ReadOnly = True
-        Me.txtFinGtia.Size = New System.Drawing.Size(80, 21)
-        Me.txtFinGtia.TabIndex = 19
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(27, 189)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(64, 13)
-        Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Fin garantía"
-        '
-        'txtObservaciones
-        '
-        Me.txtObservaciones.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtObservaciones.Location = New System.Drawing.Point(95, 212)
-        Me.txtObservaciones.Name = "txtObservaciones"
-        Me.txtObservaciones.ReadOnly = True
-        Me.txtObservaciones.Size = New System.Drawing.Size(200, 21)
-        Me.txtObservaciones.TabIndex = 21
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(13, 215)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(78, 13)
-        Me.Label8.TabIndex = 20
-        Me.Label8.Text = "Observaciones"
-        '
-        'DataSet1
-        '
-        Me.DataSet1.DataSetName = "NewDataSet"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(189, 189)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(27, 13)
-        Me.Label9.TabIndex = 23
-        Me.Label9.Text = "Días"
-        '
-        'txtDias
-        '
-        Me.txtDias.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDias.Location = New System.Drawing.Point(222, 186)
-        Me.txtDias.Name = "txtDias"
-        Me.txtDias.ReadOnly = True
-        Me.txtDias.Size = New System.Drawing.Size(37, 21)
-        Me.txtDias.TabIndex = 24
-        Me.txtDias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'lnkIDRAC
-        '
-        Me.lnkIDRAC.AutoSize = True
-        Me.lnkIDRAC.Location = New System.Drawing.Point(95, 139)
-        Me.lnkIDRAC.Name = "lnkIDRAC"
-        Me.lnkIDRAC.Size = New System.Drawing.Size(0, 13)
-        Me.lnkIDRAC.TabIndex = 26
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.Green
-        Me.Label10.Location = New System.Drawing.Point(185, 113)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(31, 13)
-        Me.Label10.TabIndex = 28
-        Me.Label10.Text = "Ping"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Green
-        Me.Label11.Location = New System.Drawing.Point(185, 139)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(31, 13)
-        Me.Label11.TabIndex = 29
-        Me.Label11.Text = "Ping"
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccionesToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(306, 24)
-        Me.MenuStrip1.TabIndex = 30
-        Me.MenuStrip1.Text = "MenuStrip1"
-        Me.MenuStrip1.Visible = False
-        '
-        'AccionesToolStripMenuItem
-        '
-        Me.AccionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AbrirRDPToolStripMenuItem, Me.InfoGarantiaToolStripMenuItem})
-        Me.AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
-        Me.AccionesToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
-        Me.AccionesToolStripMenuItem.Text = "&Acciones"
-        '
-        'AbrirRDPToolStripMenuItem
-        '
-        Me.AbrirRDPToolStripMenuItem.Name = "AbrirRDPToolStripMenuItem"
-        Me.AbrirRDPToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AbrirRDPToolStripMenuItem.Text = "&Abrir RDP"
-        '
-        'InfoGarantiaToolStripMenuItem
-        '
-        Me.InfoGarantiaToolStripMenuItem.Name = "InfoGarantiaToolStripMenuItem"
-        Me.InfoGarantiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.InfoGarantiaToolStripMenuItem.Text = "&Info Garantía"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.Color.Green
-        Me.Label12.Location = New System.Drawing.Point(185, 163)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(31, 13)
-        Me.Label12.TabIndex = 33
-        Me.Label12.Text = "Ping"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(41, 139)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(50, 13)
-        Me.Label6.TabIndex = 16
-        Me.Label6.Text = "IP iDRAC"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(28, 163)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(63, 13)
-        Me.Label13.TabIndex = 31
-        Me.Label13.Text = "IP Gateway"
-        '
-        'txtGateway
-        '
-        Me.txtGateway.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGateway.Location = New System.Drawing.Point(95, 159)
-        Me.txtGateway.Name = "txtGateway"
-        Me.txtGateway.ReadOnly = True
-        Me.txtGateway.Size = New System.Drawing.Size(80, 21)
-        Me.txtGateway.TabIndex = 34
-        '
-        'Servidores
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(306, 241)
-        Me.Controls.Add(Me.txtGateway)
-        Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.lnkIDRAC)
-        Me.Controls.Add(Me.txtDias)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.txtObservaciones)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.txtFinGtia)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.txtIP)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.txtOS)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.txtServiceTag)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtModel)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtHostname)
-        Me.Controls.Add(Me.Label3)
-        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MainMenuStrip = Me.MenuStrip1
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Name = "Servidores"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Servidores"
-        CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
-
+        txtHostname = New TextBox()
+        Label3 = New Label()
+        txtModel = New TextBox()
+        Label1 = New Label()
+        txtServiceTag = New TextBox()
+        Label2 = New Label()
+        txtOS = New TextBox()
+        Label4 = New Label()
+        txtIP = New TextBox()
+        Label5 = New Label()
+        txtFinGtia = New TextBox()
+        Label7 = New Label()
+        txtObservaciones = New TextBox()
+        Label8 = New Label()
+        DataSet1 = New DataSet()
+        Label9 = New Label()
+        txtDias = New TextBox()
+        lnkIDRAC = New LinkLabel()
+        Label10 = New Label()
+        Label11 = New Label()
+        MenuStrip1 = New MenuStrip()
+        AccionesToolStripMenuItem = New ToolStripMenuItem()
+        AbrirRDPToolStripMenuItem = New ToolStripMenuItem()
+        InfoGarantiaToolStripMenuItem = New ToolStripMenuItem()
+        Label12 = New Label()
+        Label6 = New Label()
+        Label13 = New Label()
+        txtGateway = New TextBox()
+        txtPassRoot = New TextBox()
+        Label14 = New Label()
+        CType(DataSet1, ComponentModel.ISupportInitialize).BeginInit()
+        MenuStrip1.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' txtHostname
+        ' 
+        txtHostname.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtHostname.Location = New Point(95, 6)
+        txtHostname.Name = "txtHostname"
+        txtHostname.ReadOnly = True
+        txtHostname.Size = New Size(127, 21)
+        txtHostname.TabIndex = 7
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(34, 9)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(55, 13)
+        Label3.TabIndex = 6
+        Label3.Text = "Hostname"
+        ' 
+        ' txtModel
+        ' 
+        txtModel.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtModel.Location = New Point(95, 32)
+        txtModel.Name = "txtModel"
+        txtModel.ReadOnly = True
+        txtModel.Size = New Size(127, 21)
+        txtModel.TabIndex = 9
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(48, 35)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(41, 13)
+        Label1.TabIndex = 8
+        Label1.Text = "Modelo"
+        ' 
+        ' txtServiceTag
+        ' 
+        txtServiceTag.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtServiceTag.Location = New Point(95, 58)
+        txtServiceTag.Name = "txtServiceTag"
+        txtServiceTag.ReadOnly = True
+        txtServiceTag.Size = New Size(80, 21)
+        txtServiceTag.TabIndex = 11
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(26, 61)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(63, 13)
+        Label2.TabIndex = 10
+        Label2.Text = "Service Tag"
+        ' 
+        ' txtOS
+        ' 
+        txtOS.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtOS.Location = New Point(95, 84)
+        txtOS.Name = "txtOS"
+        txtOS.ReadOnly = True
+        txtOS.Size = New Size(127, 21)
+        txtOS.TabIndex = 13
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(10, 87)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(79, 13)
+        Label4.TabIndex = 12
+        Label4.Text = "Sist. Operativo"
+        ' 
+        ' txtIP
+        ' 
+        txtIP.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtIP.Location = New Point(95, 110)
+        txtIP.Name = "txtIP"
+        txtIP.ReadOnly = True
+        txtIP.Size = New Size(80, 21)
+        txtIP.TabIndex = 15
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(72, 113)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(17, 13)
+        Label5.TabIndex = 14
+        Label5.Text = "IP"
+        ' 
+        ' txtFinGtia
+        ' 
+        txtFinGtia.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtFinGtia.Location = New Point(95, 186)
+        txtFinGtia.Name = "txtFinGtia"
+        txtFinGtia.ReadOnly = True
+        txtFinGtia.Size = New Size(80, 21)
+        txtFinGtia.TabIndex = 19
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(25, 189)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(64, 13)
+        Label7.TabIndex = 18
+        Label7.Text = "Fin garantía"
+        ' 
+        ' txtObservaciones
+        ' 
+        txtObservaciones.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtObservaciones.Location = New Point(95, 212)
+        txtObservaciones.Name = "txtObservaciones"
+        txtObservaciones.ReadOnly = True
+        txtObservaciones.Size = New Size(199, 21)
+        txtObservaciones.TabIndex = 21
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(11, 215)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(78, 13)
+        Label8.TabIndex = 20
+        Label8.Text = "Observaciones"
+        ' 
+        ' DataSet1
+        ' 
+        DataSet1.DataSetName = "NewDataSet"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.Location = New Point(189, 189)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(27, 13)
+        Label9.TabIndex = 23
+        Label9.Text = "Días"
+        ' 
+        ' txtDias
+        ' 
+        txtDias.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDias.Location = New Point(222, 186)
+        txtDias.Name = "txtDias"
+        txtDias.ReadOnly = True
+        txtDias.Size = New Size(37, 21)
+        txtDias.TabIndex = 24
+        txtDias.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' lnkIDRAC
+        ' 
+        lnkIDRAC.AutoSize = True
+        lnkIDRAC.Location = New Point(95, 139)
+        lnkIDRAC.Name = "lnkIDRAC"
+        lnkIDRAC.Size = New Size(0, 13)
+        lnkIDRAC.TabIndex = 26
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.ForeColor = Color.Green
+        Label10.Location = New Point(185, 113)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(31, 13)
+        Label10.TabIndex = 28
+        Label10.Text = "Ping"
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label11.ForeColor = Color.Green
+        Label11.Location = New Point(185, 139)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(31, 13)
+        Label11.TabIndex = 29
+        Label11.Text = "Ping"
+        ' 
+        ' MenuStrip1
+        ' 
+        MenuStrip1.Font = New Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        MenuStrip1.Items.AddRange(New ToolStripItem() {AccionesToolStripMenuItem})
+        MenuStrip1.Location = New Point(0, 0)
+        MenuStrip1.Name = "MenuStrip1"
+        MenuStrip1.Size = New Size(306, 24)
+        MenuStrip1.TabIndex = 30
+        MenuStrip1.Text = "MenuStrip1"
+        MenuStrip1.Visible = False
+        ' 
+        ' AccionesToolStripMenuItem
+        ' 
+        AccionesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AbrirRDPToolStripMenuItem, InfoGarantiaToolStripMenuItem})
+        AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
+        AccionesToolStripMenuItem.Size = New Size(67, 20)
+        AccionesToolStripMenuItem.Text = "&Acciones"
+        ' 
+        ' AbrirRDPToolStripMenuItem
+        ' 
+        AbrirRDPToolStripMenuItem.Name = "AbrirRDPToolStripMenuItem"
+        AbrirRDPToolStripMenuItem.Size = New Size(144, 22)
+        AbrirRDPToolStripMenuItem.Text = "&Abrir RDP"
+        ' 
+        ' InfoGarantiaToolStripMenuItem
+        ' 
+        InfoGarantiaToolStripMenuItem.Name = "InfoGarantiaToolStripMenuItem"
+        InfoGarantiaToolStripMenuItem.Size = New Size(144, 22)
+        InfoGarantiaToolStripMenuItem.Text = "&Info Garantía"
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label12.ForeColor = Color.Green
+        Label12.Location = New Point(185, 163)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(31, 13)
+        Label12.TabIndex = 33
+        Label12.Text = "Ping"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(39, 139)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(50, 13)
+        Label6.TabIndex = 16
+        Label6.Text = "IP iDRAC"
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label13.Location = New Point(26, 163)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(63, 13)
+        Label13.TabIndex = 31
+        Label13.Text = "IP Gateway"
+        ' 
+        ' txtGateway
+        ' 
+        txtGateway.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtGateway.Location = New Point(95, 159)
+        txtGateway.Name = "txtGateway"
+        txtGateway.ReadOnly = True
+        txtGateway.Size = New Size(80, 21)
+        txtGateway.TabIndex = 34
+        ' 
+        ' txtPassRoot
+        ' 
+        txtPassRoot.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtPassRoot.Location = New Point(95, 239)
+        txtPassRoot.Name = "txtPassRoot"
+        txtPassRoot.ReadOnly = True
+        txtPassRoot.Size = New Size(199, 21)
+        txtPassRoot.TabIndex = 36
+        ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(13, 242)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(76, 13)
+        Label14.TabIndex = 35
+        Label14.Text = "Password root"
+        ' 
+        ' Servidores
+        ' 
+        AutoScaleDimensions = New SizeF(6F, 13F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(306, 269)
+        Controls.Add(txtPassRoot)
+        Controls.Add(Label14)
+        Controls.Add(txtGateway)
+        Controls.Add(Label12)
+        Controls.Add(Label13)
+        Controls.Add(Label11)
+        Controls.Add(Label10)
+        Controls.Add(lnkIDRAC)
+        Controls.Add(txtDias)
+        Controls.Add(Label9)
+        Controls.Add(txtObservaciones)
+        Controls.Add(Label8)
+        Controls.Add(txtFinGtia)
+        Controls.Add(Label7)
+        Controls.Add(MenuStrip1)
+        Controls.Add(Label6)
+        Controls.Add(txtIP)
+        Controls.Add(Label5)
+        Controls.Add(txtOS)
+        Controls.Add(Label4)
+        Controls.Add(txtServiceTag)
+        Controls.Add(Label2)
+        Controls.Add(txtModel)
+        Controls.Add(Label1)
+        Controls.Add(txtHostname)
+        Controls.Add(Label3)
+        Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        FormBorderStyle = FormBorderStyle.FixedDialog
+        MainMenuStrip = MenuStrip1
+        MaximizeBox = False
+        MinimizeBox = False
+        Name = "Servidores"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Servidores"
+        CType(DataSet1, ComponentModel.ISupportInitialize).EndInit()
+        MenuStrip1.ResumeLayout(False)
+        MenuStrip1.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents txtHostname As TextBox
@@ -384,4 +406,6 @@ Partial Class Servidores
     Friend WithEvents Label6 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents txtGateway As TextBox
+    Friend WithEvents txtPassRoot As TextBox
+    Friend WithEvents Label14 As Label
 End Class
