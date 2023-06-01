@@ -57,14 +57,6 @@ Public Class Tablet
         End Try
     End Sub
 
-    Private Sub ConsultarEPOToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarEPOToolStripMenuItem.Click
-        Dim frmePO As New ePO
-        Hostname = ComboBox1.Text
-        frmePO.Text = Hostname
-        frmePO.MdiParent = RelevamientoMenu
-        frmePO.Show()
-    End Sub
-
     Private Sub ControlRemotoConfigurationManagerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ControlRemotoConfigurationManagerToolStripMenuItem.Click
         Dim CMRC = My.Computer.Registry.GetValue("HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\ConfigMgr10\Setup", "UI Installation Directory", Nothing)
         Process.Start(CMRC & "bin\i386\CmRcViewer.exe", ComboBox1.Text)

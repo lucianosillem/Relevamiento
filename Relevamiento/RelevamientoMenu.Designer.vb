@@ -32,6 +32,7 @@ Partial Class RelevamientoMenu
         ToolsMenu = New ToolStripMenuItem()
         ConsolaADToolStripMenuItem = New ToolStripMenuItem()
         ConsolaDHCPToolStripMenuItem = New ToolStripMenuItem()
+        ConsultaCIAToolStripMenuItem = New ToolStripMenuItem()
         ConsultaGarantíaDellToolStripMenuItem = New ToolStripMenuItem()
         ToolTip = New ToolTip(components)
         Timer1 = New Timer(components)
@@ -40,7 +41,7 @@ Partial Class RelevamientoMenu
         ' 
         ' MenuStrip
         ' 
-        MenuStrip.Font = New Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        MenuStrip.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         MenuStrip.Items.AddRange(New ToolStripItem() {MenuToolStripMenuItem, ToolsMenu})
         MenuStrip.Location = New Point(0, 0)
         MenuStrip.Name = "MenuStrip"
@@ -52,7 +53,7 @@ Partial Class RelevamientoMenu
         ' 
         MenuToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RelevamientoCACsToolStripMenuItem, RelevamientoEdificiosCorporativosToolStripMenuItem})
         MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        MenuToolStripMenuItem.Size = New Size(49, 20)
+        MenuToolStripMenuItem.Size = New Size(50, 20)
         MenuToolStripMenuItem.Text = "&Menú"
         ' 
         ' RelevamientoCACsToolStripMenuItem
@@ -69,7 +70,7 @@ Partial Class RelevamientoMenu
         ' 
         ' ToolsMenu
         ' 
-        ToolsMenu.DropDownItems.AddRange(New ToolStripItem() {ConsolaADToolStripMenuItem, ConsolaDHCPToolStripMenuItem, ConsultaGarantíaDellToolStripMenuItem})
+        ToolsMenu.DropDownItems.AddRange(New ToolStripItem() {ConsolaADToolStripMenuItem, ConsolaDHCPToolStripMenuItem, ConsultaCIAToolStripMenuItem, ConsultaGarantíaDellToolStripMenuItem})
         ToolsMenu.Name = "ToolsMenu"
         ToolsMenu.Size = New Size(90, 20)
         ToolsMenu.Text = "&Herramientas"
@@ -86,8 +87,15 @@ Partial Class RelevamientoMenu
         ConsolaDHCPToolStripMenuItem.Size = New Size(190, 22)
         ConsolaDHCPToolStripMenuItem.Text = "Consola &DHCP"
         ' 
+        ' ConsultaCIAToolStripMenuItem
+        ' 
+        ConsultaCIAToolStripMenuItem.Name = "ConsultaCIAToolStripMenuItem"
+        ConsultaCIAToolStripMenuItem.Size = New Size(190, 22)
+        ConsultaCIAToolStripMenuItem.Text = "Consulta &CIA"
+        ' 
         ' ConsultaGarantíaDellToolStripMenuItem
         ' 
+        ConsultaGarantíaDellToolStripMenuItem.Enabled = False
         ConsultaGarantíaDellToolStripMenuItem.Name = "ConsultaGarantíaDellToolStripMenuItem"
         ConsultaGarantíaDellToolStripMenuItem.Size = New Size(190, 22)
         ConsultaGarantíaDellToolStripMenuItem.Text = "Consulta &garantía Dell"
@@ -100,7 +108,7 @@ Partial Class RelevamientoMenu
         BackgroundImageLayout = ImageLayout.Center
         ClientSize = New Size(632, 453)
         Controls.Add(MenuStrip)
-        Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         IsMdiContainer = True
         MainMenuStrip = MenuStrip
         Name = "RelevamientoMenu"
@@ -113,9 +121,9 @@ Partial Class RelevamientoMenu
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents ToolTip As System.Windows.Forms.ToolTip
-    Friend WithEvents MenuStrip As System.Windows.Forms.MenuStrip
-    Friend WithEvents ToolsMenu As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolTip As ToolTip
+    Friend WithEvents MenuStrip As MenuStrip
+    Friend WithEvents ToolsMenu As ToolStripMenuItem
     Friend WithEvents MenuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RelevamientoCACsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RelevamientoEdificiosCorporativosToolStripMenuItem As ToolStripMenuItem
@@ -123,4 +131,5 @@ Partial Class RelevamientoMenu
     Friend WithEvents Timer1 As Timer
     Friend WithEvents ConsolaADToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConsultaGarantíaDellToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultaCIAToolStripMenuItem As ToolStripMenuItem
 End Class

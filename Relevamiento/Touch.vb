@@ -114,14 +114,6 @@ Public Class Touch
         Process.Start(CMRC & "bin\i386\CmRcViewer.exe", ComboBox1.Text)
     End Sub
 
-    Private Sub ConsultarEPOToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        Dim frmePO As New ePO
-        Hostname = ComboBox1.Text
-        frmePO.Text = Hostname
-        frmePO.MdiParent = RelevamientoMenu
-        frmePO.Show()
-    End Sub
-
     Private Sub ReiniciarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReiniciarToolStripMenuItem.Click
         Process.Start("cmd", "/c shutdown -m \\" & ComboBox1.Text & " -r -t 0 -f")
     End Sub

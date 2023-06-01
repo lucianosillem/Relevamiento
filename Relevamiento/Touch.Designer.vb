@@ -51,7 +51,7 @@ Partial Class Touch
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label10.ForeColor = Color.Green
         Label10.Location = New Point(227, 102)
         Label10.Margin = New Padding(4, 0, 4, 0)
@@ -61,54 +61,54 @@ Partial Class Touch
         ' 
         ' txtSerial
         ' 
-        txtSerial.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSerial.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtSerial.Location = New Point(122, 60)
         txtSerial.Margin = New Padding(4, 3, 4, 3)
         txtSerial.Name = "txtSerial"
         txtSerial.ReadOnly = True
-        txtSerial.Size = New Size(148, 21)
+        txtSerial.Size = New Size(105, 22)
         txtSerial.TabIndex = 49
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(81, 63)
+        Label2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(79, 63)
         Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(33, 13)
+        Label2.Size = New Size(35, 13)
         Label2.TabIndex = 48
         Label2.Text = "Serial"
         ' 
         ' txtModel
         ' 
-        txtModel.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtModel.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtModel.Location = New Point(122, 33)
         txtModel.Margin = New Padding(4, 3, 4, 3)
         txtModel.Name = "txtModel"
         txtModel.ReadOnly = True
-        txtModel.Size = New Size(148, 21)
+        txtModel.Size = New Size(105, 22)
         txtModel.TabIndex = 47
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(73, 36)
+        Label3.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(67, 36)
         Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(41, 13)
+        Label3.Size = New Size(47, 13)
         Label3.TabIndex = 46
         Label3.Text = "Modelo"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(78, 9)
+        Label1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(76, 9)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(36, 13)
+        Label1.Size = New Size(38, 13)
         Label1.TabIndex = 45
         Label1.Text = "Touch"
         Label1.TextAlign = ContentAlignment.TopRight
@@ -117,7 +117,7 @@ Partial Class Touch
         ' 
         ComboBox1.AutoCompleteMode = AutoCompleteMode.SuggestAppend
         ComboBox1.AutoCompleteSource = AutoCompleteSource.ListItems
-        ComboBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        ComboBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ComboBox1.FormattingEnabled = True
         ComboBox1.Location = New Point(122, 6)
         ComboBox1.Margin = New Padding(4, 3, 4, 3)
@@ -128,9 +128,9 @@ Partial Class Touch
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label9.ForeColor = SystemColors.ControlText
-        Label9.Location = New Point(234, 103)
+        Label9.Location = New Point(235, 102)
         Label9.Margin = New Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
         Label9.Size = New Size(0, 13)
@@ -139,43 +139,43 @@ Partial Class Touch
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(40, 173)
+        Label4.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(33, 173)
         Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(74, 13)
+        Label4.Size = New Size(81, 13)
         Label4.TabIndex = 52
         Label4.Text = "Usuario Qflow"
         ' 
         ' txtNQflow
         ' 
-        txtNQflow.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtNQflow.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtNQflow.Location = New Point(122, 169)
         txtNQflow.Margin = New Padding(4, 3, 4, 3)
         txtNQflow.Name = "txtNQflow"
         txtNQflow.ReadOnly = True
-        txtNQflow.Size = New Size(233, 21)
+        txtNQflow.Size = New Size(105, 22)
         txtNQflow.TabIndex = 53
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(33, 205)
+        Label6.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Location = New Point(36, 205)
         Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(81, 13)
+        Label6.Size = New Size(78, 13)
         Label6.TabIndex = 56
         Label6.Text = "Teléfono NCR"
         ' 
         ' lnkTel
         ' 
         lnkTel.AutoSize = True
-        lnkTel.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        lnkTel.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         lnkTel.Location = New Point(122, 205)
         lnkTel.Margin = New Padding(4, 0, 4, 0)
         lnkTel.Name = "lnkTel"
-        lnkTel.Size = New Size(94, 13)
+        lnkTel.Size = New Size(81, 13)
         lnkTel.TabIndex = 58
         lnkTel.TabStop = True
         lnkTel.Text = "0800-800-0199"
@@ -183,50 +183,50 @@ Partial Class Touch
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(18, 147)
+        Label7.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(12, 147)
         Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(96, 13)
+        Label7.Size = New Size(102, 13)
         Label7.TabIndex = 59
         Label7.Text = "Nombre Impresora"
         ' 
         ' txtImpresora
         ' 
-        txtImpresora.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtImpresora.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtImpresora.Location = New Point(122, 142)
         txtImpresora.Margin = New Padding(4, 3, 4, 3)
         txtImpresora.Name = "txtImpresora"
         txtImpresora.ReadOnly = True
-        txtImpresora.Size = New Size(233, 21)
+        txtImpresora.Size = New Size(105, 22)
         txtImpresora.TabIndex = 60
         ' 
         ' ListBox1
         ' 
+        ListBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ListBox1.FormattingEnabled = True
-        ListBox1.ItemHeight = 15
         ListBox1.Location = New Point(122, 87)
         ListBox1.Margin = New Padding(4, 3, 4, 3)
         ListBox1.Name = "ListBox1"
-        ListBox1.Size = New Size(104, 49)
+        ListBox1.Size = New Size(104, 43)
         ListBox1.TabIndex = 89
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(40, 102)
+        Label5.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(36, 102)
         Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(74, 13)
+        Label5.Size = New Size(78, 13)
         Label5.TabIndex = 88
         Label5.Text = "Direcciones IP"
         ' 
         ' LblModel
         ' 
         LblModel.AutoSize = True
-        LblModel.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
-        LblModel.Location = New Point(285, 42)
+        LblModel.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        LblModel.Location = New Point(235, 36)
         LblModel.Margin = New Padding(4, 0, 4, 0)
         LblModel.Name = "LblModel"
         LblModel.Size = New Size(0, 13)
@@ -234,6 +234,7 @@ Partial Class Touch
         ' 
         ' MenuStrip1
         ' 
+        MenuStrip1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         MenuStrip1.GripStyle = ToolStripGripStyle.Visible
         MenuStrip1.Items.AddRange(New ToolStripItem() {AccionesToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
@@ -247,39 +248,44 @@ Partial Class Touch
         ' AccionesToolStripMenuItem
         ' 
         AccionesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ControlRemotoConfigurationManagerToolStripMenuItem, ReiniciarToolStripMenuItem, NuevoTouchToolStripMenuItem, EditarHostnameToolStripMenuItem})
+        AccionesToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
-        AccionesToolStripMenuItem.Size = New Size(67, 20)
+        AccionesToolStripMenuItem.Size = New Size(64, 20)
         AccionesToolStripMenuItem.Text = "&Acciones"
         ' 
         ' ControlRemotoConfigurationManagerToolStripMenuItem
         ' 
+        ControlRemotoConfigurationManagerToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ControlRemotoConfigurationManagerToolStripMenuItem.Name = "ControlRemotoConfigurationManagerToolStripMenuItem"
-        ControlRemotoConfigurationManagerToolStripMenuItem.Size = New Size(291, 22)
+        ControlRemotoConfigurationManagerToolStripMenuItem.Size = New Size(284, 22)
         ControlRemotoConfigurationManagerToolStripMenuItem.Text = "&Control remoto (Configuration Manager)"
         ' 
         ' ReiniciarToolStripMenuItem
         ' 
+        ReiniciarToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ReiniciarToolStripMenuItem.Name = "ReiniciarToolStripMenuItem"
-        ReiniciarToolStripMenuItem.Size = New Size(291, 22)
+        ReiniciarToolStripMenuItem.Size = New Size(284, 22)
         ReiniciarToolStripMenuItem.Text = "&Reiniciar"
         ' 
         ' NuevoTouchToolStripMenuItem
         ' 
+        NuevoTouchToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         NuevoTouchToolStripMenuItem.Name = "NuevoTouchToolStripMenuItem"
-        NuevoTouchToolStripMenuItem.Size = New Size(291, 22)
+        NuevoTouchToolStripMenuItem.Size = New Size(284, 22)
         NuevoTouchToolStripMenuItem.Text = "&Nuevo touch..."
         ' 
         ' EditarHostnameToolStripMenuItem
         ' 
+        EditarHostnameToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         EditarHostnameToolStripMenuItem.Name = "EditarHostnameToolStripMenuItem"
-        EditarHostnameToolStripMenuItem.Size = New Size(291, 22)
+        EditarHostnameToolStripMenuItem.Size = New Size(284, 22)
         EditarHostnameToolStripMenuItem.Text = "&Editar hostname..."
         ' 
         ' Touch
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(370, 228)
+        ClientSize = New Size(335, 228)
         Controls.Add(MenuStrip1)
         Controls.Add(LblModel)
         Controls.Add(ListBox1)
