@@ -78,7 +78,7 @@ Partial Class RelevamientoCAC
         ' 
         ComboBox1.AutoCompleteMode = AutoCompleteMode.Append
         ComboBox1.AutoCompleteSource = AutoCompleteSource.ListItems
-        ComboBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        ComboBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ComboBox1.FormattingEnabled = True
         ComboBox1.Location = New Point(68, 6)
         ComboBox1.Name = "ComboBox1"
@@ -92,8 +92,8 @@ Partial Class RelevamientoCAC
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(35, 9)
+        Label1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(36, 9)
         Label1.Name = "Label1"
         Label1.Size = New Size(28, 13)
         Label1.TabIndex = 1
@@ -103,10 +103,10 @@ Partial Class RelevamientoCAC
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(13, 36)
+        Label2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(9, 36)
         Label2.Name = "Label2"
-        Label2.Size = New Size(50, 13)
+        Label2.Size = New Size(55, 13)
         Label2.TabIndex = 2
         Label2.Text = "Dirección"
         Label2.TextAlign = ContentAlignment.TopRight
@@ -114,66 +114,66 @@ Partial Class RelevamientoCAC
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(12, 64)
+        Label3.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(8, 64)
         Label3.Name = "Label3"
-        Label3.Size = New Size(51, 13)
+        Label3.Size = New Size(56, 13)
         Label3.TabIndex = 3
         Label3.Text = "Localidad"
         Label3.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtDireccion
         ' 
-        txtDireccion.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDireccion.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtDireccion.Location = New Point(68, 33)
         txtDireccion.Name = "txtDireccion"
         txtDireccion.ReadOnly = True
-        txtDireccion.Size = New Size(397, 21)
+        txtDireccion.Size = New Size(397, 22)
         txtDireccion.TabIndex = 4
         ' 
         ' txtLocalidad
         ' 
-        txtLocalidad.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtLocalidad.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtLocalidad.Location = New Point(69, 60)
         txtLocalidad.Name = "txtLocalidad"
         txtLocalidad.ReadOnly = True
-        txtLocalidad.Size = New Size(158, 21)
+        txtLocalidad.Size = New Size(158, 22)
         txtLocalidad.TabIndex = 5
         ' 
         ' txtProvincia
         ' 
-        txtProvincia.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtProvincia.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtProvincia.Location = New Point(287, 60)
         txtProvincia.Name = "txtProvincia"
         txtProvincia.ReadOnly = True
-        txtProvincia.Size = New Size(178, 21)
+        txtProvincia.Size = New Size(178, 22)
         txtProvincia.TabIndex = 7
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label4.Location = New Point(231, 64)
         Label4.Name = "Label4"
-        Label4.Size = New Size(50, 13)
+        Label4.Size = New Size(53, 13)
         Label4.TabIndex = 6
         Label4.Text = "Provincia"
         Label4.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtCP
         ' 
-        txtCP.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        txtCP.Location = New Point(69, 87)
+        txtCP.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCP.Location = New Point(69, 90)
         txtCP.Name = "txtCP"
         txtCP.ReadOnly = True
-        txtCP.Size = New Size(65, 21)
+        txtCP.Size = New Size(65, 22)
         txtCP.TabIndex = 15
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label6.Location = New Point(43, 91)
+        Label6.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(44, 93)
         Label6.Name = "Label6"
         Label6.Size = New Size(20, 13)
         Label6.TabIndex = 14
@@ -182,37 +182,37 @@ Partial Class RelevamientoCAC
         ' 
         ' txtJefe
         ' 
-        txtJefe.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtJefe.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtJefe.Location = New Point(62, 20)
         txtJefe.Name = "txtJefe"
         txtJefe.ReadOnly = True
-        txtJefe.Size = New Size(169, 21)
+        txtJefe.Size = New Size(169, 22)
         txtJefe.TabIndex = 17
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(28, 23)
+        Label7.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(29, 23)
         Label7.Name = "Label7"
-        Label7.Size = New Size(28, 13)
+        Label7.Size = New Size(27, 13)
         Label7.TabIndex = 16
         Label7.Text = "Jefe"
         Label7.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtSuperv1
         ' 
-        txtSuperv1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSuperv1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtSuperv1.Location = New Point(62, 74)
         txtSuperv1.Name = "txtSuperv1"
         txtSuperv1.ReadOnly = True
-        txtSuperv1.Size = New Size(169, 21)
+        txtSuperv1.Size = New Size(169, 22)
         txtSuperv1.TabIndex = 19
         ' 
         ' Label8
         ' 
         Label8.AutoSize = True
-        Label8.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label8.Location = New Point(2, 77)
         Label8.Name = "Label8"
         Label8.Size = New Size(54, 13)
@@ -222,18 +222,18 @@ Partial Class RelevamientoCAC
         ' 
         ' txtSuperv2
         ' 
-        txtSuperv2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSuperv2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtSuperv2.Location = New Point(290, 74)
         txtSuperv2.Name = "txtSuperv2"
         txtSuperv2.ReadOnly = True
-        txtSuperv2.Size = New Size(169, 21)
+        txtSuperv2.Size = New Size(169, 22)
         txtSuperv2.TabIndex = 21
         ' 
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(233, 77)
+        Label9.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.Location = New Point(230, 77)
         Label9.Name = "Label9"
         Label9.Size = New Size(54, 13)
         Label9.TabIndex = 20
@@ -258,7 +258,7 @@ Partial Class RelevamientoCAC
         GroupBox1.Controls.Add(txtSuperv2)
         GroupBox1.Controls.Add(txtSuperv1)
         GroupBox1.Controls.Add(Label7)
-        GroupBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        GroupBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         GroupBox1.Location = New Point(6, 144)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(469, 129)
@@ -268,20 +268,20 @@ Partial Class RelevamientoCAC
         ' 
         ' txtRegion
         ' 
-        txtRegion.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtRegion.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtRegion.Location = New Point(62, 47)
         txtRegion.Name = "txtRegion"
         txtRegion.ReadOnly = True
-        txtRegion.Size = New Size(169, 21)
+        txtRegion.Size = New Size(169, 22)
         txtRegion.TabIndex = 31
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label14.Location = New Point(16, 50)
+        Label14.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(12, 50)
         Label14.Name = "Label14"
-        Label14.Size = New Size(40, 13)
+        Label14.Size = New Size(44, 13)
         Label14.TabIndex = 30
         Label14.Text = "Región"
         Label14.TextAlign = ContentAlignment.TopRight
@@ -289,86 +289,86 @@ Partial Class RelevamientoCAC
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label13.Location = New Point(4, 104)
+        Label13.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label13.Location = New Point(2, 104)
         Label13.Name = "Label13"
-        Label13.Size = New Size(52, 13)
+        Label13.Size = New Size(54, 13)
         Label13.TabIndex = 28
         Label13.Text = "Técnico 1"
         Label13.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtTecnico
         ' 
-        txtTecnico.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTecnico.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtTecnico.Location = New Point(62, 101)
         txtTecnico.Name = "txtTecnico"
         txtTecnico.ReadOnly = True
-        txtTecnico.Size = New Size(169, 21)
+        txtTecnico.Size = New Size(169, 22)
         txtTecnico.TabIndex = 29
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
-        Label12.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(235, 104)
+        Label12.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label12.Location = New Point(230, 104)
         Label12.Name = "Label12"
-        Label12.Size = New Size(52, 13)
+        Label12.Size = New Size(54, 13)
         Label12.TabIndex = 26
         Label12.Text = "Técnico 2"
         Label12.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtTecnico2
         ' 
-        txtTecnico2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTecnico2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtTecnico2.Location = New Point(290, 101)
         txtTecnico2.Name = "txtTecnico2"
         txtTecnico2.ReadOnly = True
-        txtTecnico2.Size = New Size(169, 21)
+        txtTecnico2.Size = New Size(169, 22)
         txtTecnico2.TabIndex = 27
         ' 
         ' txtJefeNb
         ' 
-        txtJefeNb.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtJefeNb.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtJefeNb.Location = New Point(290, 20)
         txtJefeNb.Name = "txtJefeNb"
         txtJefeNb.ReadOnly = True
-        txtJefeNb.Size = New Size(169, 21)
+        txtJefeNb.Size = New Size(169, 22)
         txtJefeNb.TabIndex = 25
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(243, 23)
+        Label11.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.Location = New Point(239, 23)
         Label11.Name = "Label11"
-        Label11.Size = New Size(44, 13)
+        Label11.Size = New Size(45, 13)
         Label11.TabIndex = 24
         Label11.Text = "Jefe Nb"
         Label11.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtGerente
         ' 
-        txtGerente.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtGerente.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtGerente.Location = New Point(290, 47)
         txtGerente.Name = "txtGerente"
         txtGerente.ReadOnly = True
-        txtGerente.Size = New Size(169, 21)
+        txtGerente.Size = New Size(169, 22)
         txtGerente.TabIndex = 23
         ' 
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(241, 50)
+        Label10.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label10.Location = New Point(236, 50)
         Label10.Name = "Label10"
-        Label10.Size = New Size(46, 13)
+        Label10.Size = New Size(48, 13)
         Label10.TabIndex = 22
         Label10.Text = "Gerente"
         Label10.TextAlign = ContentAlignment.TopRight
         ' 
         ' MenuStrip1
         ' 
-        MenuStrip1.Font = New Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        MenuStrip1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         MenuStrip1.Items.AddRange(New ToolStripItem() {VerToolStripMenuItem, AccionesToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
@@ -380,81 +380,91 @@ Partial Class RelevamientoCAC
         ' VerToolStripMenuItem
         ' 
         VerToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ServidorToolStripMenuItem, CartelesToolStripMenuItem, TouchToolStripMenuItem, ImpresorasToolStripMenuItem, TabletsToolStripMenuItem})
+        VerToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         VerToolStripMenuItem.Name = "VerToolStripMenuItem"
-        VerToolStripMenuItem.Size = New Size(38, 20)
+        VerToolStripMenuItem.Size = New Size(35, 20)
         VerToolStripMenuItem.Text = "&Ver"
         ' 
         ' ServidorToolStripMenuItem
         ' 
+        ServidorToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ServidorToolStripMenuItem.Name = "ServidorToolStripMenuItem"
-        ServidorToolStripMenuItem.Size = New Size(133, 22)
+        ServidorToolStripMenuItem.Size = New Size(130, 22)
         ServidorToolStripMenuItem.Text = "&Servidor"
         ' 
         ' CartelesToolStripMenuItem
         ' 
+        CartelesToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         CartelesToolStripMenuItem.Name = "CartelesToolStripMenuItem"
-        CartelesToolStripMenuItem.Size = New Size(133, 22)
+        CartelesToolStripMenuItem.Size = New Size(130, 22)
         CartelesToolStripMenuItem.Text = "&Carteles"
         ' 
         ' TouchToolStripMenuItem
         ' 
+        TouchToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         TouchToolStripMenuItem.Name = "TouchToolStripMenuItem"
-        TouchToolStripMenuItem.Size = New Size(133, 22)
+        TouchToolStripMenuItem.Size = New Size(130, 22)
         TouchToolStripMenuItem.Text = "&Touch"
         ' 
         ' ImpresorasToolStripMenuItem
         ' 
+        ImpresorasToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ImpresorasToolStripMenuItem.Name = "ImpresorasToolStripMenuItem"
-        ImpresorasToolStripMenuItem.Size = New Size(133, 22)
+        ImpresorasToolStripMenuItem.Size = New Size(130, 22)
         ImpresorasToolStripMenuItem.Text = "&Impresoras"
         ' 
         ' TabletsToolStripMenuItem
         ' 
+        TabletsToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         TabletsToolStripMenuItem.Name = "TabletsToolStripMenuItem"
-        TabletsToolStripMenuItem.Size = New Size(133, 22)
+        TabletsToolStripMenuItem.Size = New Size(130, 22)
         TabletsToolStripMenuItem.Text = "&Tablets"
         ' 
         ' AccionesToolStripMenuItem
         ' 
         AccionesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CopiarDirecciónCompletaToolStripMenuItem, EditarValorToolStripMenuItem, ImprimirEtiquetaDeEnvíoToolStripMenuItem})
+        AccionesToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
-        AccionesToolStripMenuItem.Size = New Size(67, 20)
+        AccionesToolStripMenuItem.Size = New Size(64, 20)
         AccionesToolStripMenuItem.Text = "&Acciones"
         ' 
         ' CopiarDirecciónCompletaToolStripMenuItem
         ' 
+        CopiarDirecciónCompletaToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         CopiarDirecciónCompletaToolStripMenuItem.Name = "CopiarDirecciónCompletaToolStripMenuItem"
-        CopiarDirecciónCompletaToolStripMenuItem.Size = New Size(218, 22)
+        CopiarDirecciónCompletaToolStripMenuItem.Size = New Size(209, 22)
         CopiarDirecciónCompletaToolStripMenuItem.Text = "&Copiar dirección completa"
         ' 
         ' EditarValorToolStripMenuItem
         ' 
+        EditarValorToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         EditarValorToolStripMenuItem.Name = "EditarValorToolStripMenuItem"
-        EditarValorToolStripMenuItem.Size = New Size(218, 22)
+        EditarValorToolStripMenuItem.Size = New Size(209, 22)
         EditarValorToolStripMenuItem.Text = "&Editar valor"
         ' 
         ' ImprimirEtiquetaDeEnvíoToolStripMenuItem
         ' 
+        ImprimirEtiquetaDeEnvíoToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ImprimirEtiquetaDeEnvíoToolStripMenuItem.Name = "ImprimirEtiquetaDeEnvíoToolStripMenuItem"
-        ImprimirEtiquetaDeEnvíoToolStripMenuItem.Size = New Size(218, 22)
+        ImprimirEtiquetaDeEnvíoToolStripMenuItem.Size = New Size(209, 22)
         ImprimirEtiquetaDeEnvíoToolStripMenuItem.Text = "&Imprimir etiqueta de envío"
         ' 
         ' txtCentroCosto
         ' 
-        txtCentroCosto.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCentroCosto.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtCentroCosto.Location = New Point(287, 90)
         txtCentroCosto.Name = "txtCentroCosto"
         txtCentroCosto.ReadOnly = True
-        txtCentroCosto.Size = New Size(178, 21)
+        txtCentroCosto.Size = New Size(178, 22)
         txtCentroCosto.TabIndex = 26
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(190, 93)
+        Label5.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(188, 93)
         Label5.Name = "Label5"
-        Label5.Size = New Size(91, 13)
+        Label5.Size = New Size(96, 13)
         Label5.TabIndex = 25
         Label5.Text = "Centro de Costos"
         Label5.TextAlign = ContentAlignment.TopRight
@@ -478,20 +488,20 @@ Partial Class RelevamientoCAC
         ' 
         ' txtHorario
         ' 
-        txtHorario.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtHorario.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtHorario.Location = New Point(287, 117)
         txtHorario.Name = "txtHorario"
         txtHorario.ReadOnly = True
-        txtHorario.Size = New Size(178, 21)
+        txtHorario.Size = New Size(178, 22)
         txtHorario.TabIndex = 28
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label15.Location = New Point(180, 120)
+        Label15.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label15.Location = New Point(174, 120)
         Label15.Name = "Label15"
-        Label15.Size = New Size(101, 13)
+        Label15.Size = New Size(110, 13)
         Label15.TabIndex = 27
         Label15.Text = "Horario de atención"
         Label15.TextAlign = ContentAlignment.TopRight

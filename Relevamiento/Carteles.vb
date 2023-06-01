@@ -100,14 +100,6 @@ Public Class Carteles
         Process.Start(CMRC & "bin\i386\CmRcViewer.exe", ComboBox1.Text)
     End Sub
 
-    Private Sub ConsultarEPOToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        Dim frmePO As New ePO
-        Hostname = ComboBox1.Text
-        frmePO.Text = Hostname
-        frmePO.MdiParent = RelevamientoMenu
-        frmePO.Show()
-    End Sub
-
     Private Sub ReiniciarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReiniciarToolStripMenuItem.Click
         If ComboBox1.Text = "" Then
             MsgBox("Debe seleccionar primero un cartel.", vbExclamation)

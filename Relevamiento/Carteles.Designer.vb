@@ -36,10 +36,10 @@ Partial Class Carteles
         ListBox1 = New ListBox()
         MenuStrip1 = New MenuStrip()
         AccionesToolStripMenuItem = New ToolStripMenuItem()
-        NuevoCartelToolStripMenuItem = New ToolStripMenuItem()
-        EditarHostnameToolStripMenuItem = New ToolStripMenuItem()
         ControlRemotoConfigurationManagerToolStripMenuItem = New ToolStripMenuItem()
         ReiniciarToolStripMenuItem = New ToolStripMenuItem()
+        NuevoCartelToolStripMenuItem = New ToolStripMenuItem()
+        EditarHostnameToolStripMenuItem = New ToolStripMenuItem()
         txtDisco = New TextBox()
         Label6 = New Label()
         MenuStrip1.SuspendLayout()
@@ -58,31 +58,31 @@ Partial Class Carteles
         ' 
         ' txtNQflow
         ' 
-        txtNQflow.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtNQflow.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtNQflow.Location = New Point(122, 136)
         txtNQflow.Margin = New Padding(4, 3, 4, 3)
         txtNQflow.Name = "txtNQflow"
         txtNQflow.ReadOnly = True
-        txtNQflow.Size = New Size(148, 21)
+        txtNQflow.Size = New Size(148, 22)
         txtNQflow.TabIndex = 81
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(40, 139)
+        Label4.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(33, 139)
         Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(74, 13)
+        Label4.Size = New Size(81, 13)
         Label4.TabIndex = 75
         Label4.Text = "Usuario Qflow"
         ' 
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Font = New Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label10.ForeColor = Color.Green
-        Label10.Location = New Point(227, 102)
+        Label10.Location = New Point(234, 102)
         Label10.Margin = New Padding(4, 0, 4, 0)
         Label10.Name = "Label10"
         Label10.Size = New Size(0, 13)
@@ -91,64 +91,64 @@ Partial Class Carteles
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(40, 102)
+        Label5.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(36, 102)
         Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(74, 13)
+        Label5.Size = New Size(78, 13)
         Label5.TabIndex = 73
         Label5.Text = "Direcciones IP"
         ' 
         ' txtSerial
         ' 
-        txtSerial.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSerial.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtSerial.Location = New Point(122, 60)
         txtSerial.Margin = New Padding(4, 3, 4, 3)
         txtSerial.Name = "txtSerial"
         txtSerial.ReadOnly = True
-        txtSerial.Size = New Size(148, 21)
+        txtSerial.Size = New Size(148, 22)
         txtSerial.TabIndex = 72
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(29, 63)
+        Label2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(23, 63)
         Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(85, 13)
+        Label2.Size = New Size(91, 13)
         Label2.TabIndex = 71
         Label2.Text = "Número de serie"
         ' 
         ' txtModel
         ' 
-        txtModel.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtModel.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtModel.Location = New Point(122, 33)
         txtModel.Margin = New Padding(4, 3, 4, 3)
         txtModel.Name = "txtModel"
         txtModel.ReadOnly = True
-        txtModel.Size = New Size(148, 21)
+        txtModel.Size = New Size(148, 22)
         txtModel.TabIndex = 70
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(73, 36)
+        Label3.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(67, 36)
         Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(41, 13)
+        Label3.Size = New Size(47, 13)
         Label3.TabIndex = 69
         Label3.Text = "Modelo"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(27, 9)
+        Label1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(22, 9)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(87, 13)
+        Label1.Size = New Size(92, 13)
         Label1.TabIndex = 68
         Label1.Text = "Cartel Hostname"
         Label1.TextAlign = ContentAlignment.TopRight
@@ -157,7 +157,7 @@ Partial Class Carteles
         ' 
         ComboBox1.AutoCompleteMode = AutoCompleteMode.SuggestAppend
         ComboBox1.AutoCompleteSource = AutoCompleteSource.ListItems
-        ComboBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        ComboBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ComboBox1.FormattingEnabled = True
         ComboBox1.Location = New Point(122, 6)
         ComboBox1.Margin = New Padding(4, 3, 4, 3)
@@ -167,7 +167,7 @@ Partial Class Carteles
         ' 
         ' ListBox1
         ' 
-        ListBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        ListBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ListBox1.FormattingEnabled = True
         ListBox1.Location = New Point(122, 87)
         ListBox1.Margin = New Padding(4, 3, 4, 3)
@@ -177,6 +177,7 @@ Partial Class Carteles
         ' 
         ' MenuStrip1
         ' 
+        MenuStrip1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         MenuStrip1.Items.AddRange(New ToolStripItem() {AccionesToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
@@ -189,52 +190,57 @@ Partial Class Carteles
         ' AccionesToolStripMenuItem
         ' 
         AccionesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ControlRemotoConfigurationManagerToolStripMenuItem, ReiniciarToolStripMenuItem, NuevoCartelToolStripMenuItem, EditarHostnameToolStripMenuItem})
+        AccionesToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
-        AccionesToolStripMenuItem.Size = New Size(67, 20)
+        AccionesToolStripMenuItem.Size = New Size(64, 20)
         AccionesToolStripMenuItem.Text = "&Acciones"
-        ' 
-        ' NuevoCartelToolStripMenuItem
-        ' 
-        NuevoCartelToolStripMenuItem.Name = "NuevoCartelToolStripMenuItem"
-        NuevoCartelToolStripMenuItem.Size = New Size(291, 22)
-        NuevoCartelToolStripMenuItem.Text = "&Nuevo cartel..."
-        ' 
-        ' EditarHostnameToolStripMenuItem
-        ' 
-        EditarHostnameToolStripMenuItem.Name = "EditarHostnameToolStripMenuItem"
-        EditarHostnameToolStripMenuItem.Size = New Size(291, 22)
-        EditarHostnameToolStripMenuItem.Text = "&Editar hostname..."
         ' 
         ' ControlRemotoConfigurationManagerToolStripMenuItem
         ' 
+        ControlRemotoConfigurationManagerToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ControlRemotoConfigurationManagerToolStripMenuItem.Name = "ControlRemotoConfigurationManagerToolStripMenuItem"
-        ControlRemotoConfigurationManagerToolStripMenuItem.Size = New Size(291, 22)
+        ControlRemotoConfigurationManagerToolStripMenuItem.Size = New Size(284, 22)
         ControlRemotoConfigurationManagerToolStripMenuItem.Text = "&Control remoto (Configuration Manager)"
         ' 
         ' ReiniciarToolStripMenuItem
         ' 
+        ReiniciarToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ReiniciarToolStripMenuItem.Name = "ReiniciarToolStripMenuItem"
-        ReiniciarToolStripMenuItem.Size = New Size(291, 22)
+        ReiniciarToolStripMenuItem.Size = New Size(284, 22)
         ReiniciarToolStripMenuItem.Text = "&Reiniciar"
+        ' 
+        ' NuevoCartelToolStripMenuItem
+        ' 
+        NuevoCartelToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        NuevoCartelToolStripMenuItem.Name = "NuevoCartelToolStripMenuItem"
+        NuevoCartelToolStripMenuItem.Size = New Size(284, 22)
+        NuevoCartelToolStripMenuItem.Text = "&Nuevo cartel..."
+        ' 
+        ' EditarHostnameToolStripMenuItem
+        ' 
+        EditarHostnameToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        EditarHostnameToolStripMenuItem.Name = "EditarHostnameToolStripMenuItem"
+        EditarHostnameToolStripMenuItem.Size = New Size(284, 22)
+        EditarHostnameToolStripMenuItem.Text = "&Editar hostname..."
         ' 
         ' txtDisco
         ' 
-        txtDisco.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDisco.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtDisco.Location = New Point(122, 163)
         txtDisco.Margin = New Padding(4, 3, 4, 3)
         txtDisco.Name = "txtDisco"
         txtDisco.ReadOnly = True
-        txtDisco.Size = New Size(148, 21)
+        txtDisco.Size = New Size(148, 22)
         txtDisco.TabIndex = 95
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label6.Location = New Point(45, 166)
+        Label6.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(36, 166)
         Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(69, 13)
+        Label6.Size = New Size(78, 13)
         Label6.TabIndex = 94
         Label6.Text = "Modelo Disco"
         ' 

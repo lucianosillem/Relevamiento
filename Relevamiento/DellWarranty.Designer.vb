@@ -22,200 +22,200 @@ Partial Class DellWarranty
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.SuspendLayout()
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(205, 93)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(11, 13)
-        Me.Label8.TabIndex = 27
-        Me.Label8.Text = "-"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(205, 119)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(11, 13)
-        Me.Label7.TabIndex = 26
-        Me.Label7.Text = "-"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(16, 146)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(115, 13)
-        Me.Label6.TabIndex = 24
-        Me.Label6.Text = "Descripción de servicio"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(136, 116)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ReadOnly = True
-        Me.TextBox5.Size = New System.Drawing.Size(63, 21)
-        Me.TextBox5.TabIndex = 23
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(25, 119)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(106, 13)
-        Me.Label5.TabIndex = 22
-        Me.Label5.Text = "Fecha de finalización"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(136, 90)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(63, 21)
-        Me.TextBox4.TabIndex = 21
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(51, 93)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(80, 13)
-        Me.Label4.TabIndex = 20
-        Me.Label4.Text = "Fecha de envío"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(136, 64)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(19, 21)
-        Me.TextBox3.TabIndex = 19
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(53, 67)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 13)
-        Me.Label3.TabIndex = 18
-        Me.Label3.Text = "Código de país"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(136, 38)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(143, 21)
-        Me.TextBox2.TabIndex = 17
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(90, 41)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(41, 13)
-        Me.Label2.TabIndex = 16
-        Me.Label2.Text = "Modelo"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(136, 12)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(63, 21)
-        Me.TextBox1.TabIndex = 15
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(67, 15)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(63, 13)
-        Me.Label1.TabIndex = 14
-        Me.Label1.Text = "Service Tag"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(137, 143)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(318, 21)
-        Me.ComboBox1.TabIndex = 28
-        Me.ComboBox1.Text = "- Seleccione - "
-        '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(397, 9)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(58, 13)
-        Me.LinkLabel1.TabIndex = 29
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "TechDirect"
-        '
-        'DellWarranty
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(463, 170)
-        Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label1)
-        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Name = "DellWarranty"
-        Me.ShowIcon = False
-        Me.ShowInTaskbar = False
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Consulta de garantía Dell"
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
-
+        Label8 = New Label()
+        Label7 = New Label()
+        Label6 = New Label()
+        TextBox5 = New TextBox()
+        Label5 = New Label()
+        TextBox4 = New TextBox()
+        Label4 = New Label()
+        TextBox3 = New TextBox()
+        Label3 = New Label()
+        TextBox2 = New TextBox()
+        Label2 = New Label()
+        TextBox1 = New TextBox()
+        Label1 = New Label()
+        ComboBox1 = New ComboBox()
+        LinkLabel1 = New LinkLabel()
+        SuspendLayout()
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(205, 93)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(11, 13)
+        Label8.TabIndex = 27
+        Label8.Text = "-"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(205, 119)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(11, 13)
+        Label7.TabIndex = 26
+        Label7.Text = "-"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(6, 146)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(124, 13)
+        Label6.TabIndex = 24
+        Label6.Text = "Descripción de servicio"
+        ' 
+        ' TextBox5
+        ' 
+        TextBox5.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox5.Location = New Point(136, 116)
+        TextBox5.Name = "TextBox5"
+        TextBox5.ReadOnly = True
+        TextBox5.Size = New Size(63, 22)
+        TextBox5.TabIndex = 23
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(15, 119)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(115, 13)
+        Label5.TabIndex = 22
+        Label5.Text = "Fecha de finalización"
+        ' 
+        ' TextBox4
+        ' 
+        TextBox4.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox4.Location = New Point(136, 90)
+        TextBox4.Name = "TextBox4"
+        TextBox4.ReadOnly = True
+        TextBox4.Size = New Size(63, 22)
+        TextBox4.TabIndex = 21
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(46, 93)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(84, 13)
+        Label4.TabIndex = 20
+        Label4.Text = "Fecha de envío"
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox3.Location = New Point(136, 64)
+        TextBox3.Name = "TextBox3"
+        TextBox3.ReadOnly = True
+        TextBox3.Size = New Size(19, 22)
+        TextBox3.TabIndex = 19
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(45, 67)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(85, 13)
+        Label3.TabIndex = 18
+        Label3.Text = "Código de país"
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox2.Location = New Point(136, 38)
+        TextBox2.Name = "TextBox2"
+        TextBox2.ReadOnly = True
+        TextBox2.Size = New Size(143, 22)
+        TextBox2.TabIndex = 17
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(83, 41)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(47, 13)
+        Label2.TabIndex = 16
+        Label2.Text = "Modelo"
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        TextBox1.Location = New Point(136, 12)
+        TextBox1.Name = "TextBox1"
+        TextBox1.ReadOnly = True
+        TextBox1.Size = New Size(63, 22)
+        TextBox1.TabIndex = 15
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(67, 15)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(63, 13)
+        Label1.TabIndex = 14
+        Label1.Text = "Service Tag"
+        ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Location = New Point(137, 143)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(318, 21)
+        ComboBox1.TabIndex = 28
+        ComboBox1.Text = "- Seleccione - "
+        ' 
+        ' LinkLabel1
+        ' 
+        LinkLabel1.AutoSize = True
+        LinkLabel1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        LinkLabel1.Location = New Point(397, 9)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Size = New Size(60, 13)
+        LinkLabel1.TabIndex = 29
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "TechDirect"
+        ' 
+        ' DellWarranty
+        ' 
+        AutoScaleDimensions = New SizeF(6F, 13F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(463, 170)
+        Controls.Add(LinkLabel1)
+        Controls.Add(ComboBox1)
+        Controls.Add(Label8)
+        Controls.Add(Label7)
+        Controls.Add(Label6)
+        Controls.Add(TextBox5)
+        Controls.Add(Label5)
+        Controls.Add(TextBox4)
+        Controls.Add(Label4)
+        Controls.Add(TextBox3)
+        Controls.Add(Label3)
+        Controls.Add(TextBox2)
+        Controls.Add(Label2)
+        Controls.Add(TextBox1)
+        Controls.Add(Label1)
+        Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        FormBorderStyle = FormBorderStyle.FixedDialog
+        MaximizeBox = False
+        MinimizeBox = False
+        Name = "DellWarranty"
+        ShowIcon = False
+        ShowInTaskbar = False
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Consulta de garantía Dell"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Label8 As Label

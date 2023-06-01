@@ -50,18 +50,18 @@ Partial Class RelevamientoEdificios
         ' 
         ' txtCP
         ' 
-        txtCP.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCP.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtCP.Location = New Point(82, 107)
         txtCP.Margin = New Padding(4, 3, 4, 3)
         txtCP.Name = "txtCP"
         txtCP.ReadOnly = True
-        txtCP.Size = New Size(75, 21)
+        txtCP.Size = New Size(75, 22)
         txtCP.TabIndex = 35
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label6.Location = New Point(51, 111)
         Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
@@ -72,54 +72,54 @@ Partial Class RelevamientoEdificios
         ' 
         ' txtProvincia
         ' 
-        txtProvincia.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtProvincia.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtProvincia.Location = New Point(335, 76)
         txtProvincia.Margin = New Padding(4, 3, 4, 3)
         txtProvincia.Name = "txtProvincia"
         txtProvincia.ReadOnly = True
-        txtProvincia.Size = New Size(209, 21)
+        txtProvincia.Size = New Size(209, 22)
         txtProvincia.TabIndex = 31
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(270, 80)
+        Label4.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(274, 80)
         Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(50, 13)
+        Label4.Size = New Size(53, 13)
         Label4.TabIndex = 30
         Label4.Text = "Provincia"
         Label4.TextAlign = ContentAlignment.TopRight
         ' 
         ' txtLocalidad
         ' 
-        txtLocalidad.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtLocalidad.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtLocalidad.Location = New Point(82, 76)
         txtLocalidad.Margin = New Padding(4, 3, 4, 3)
         txtLocalidad.Name = "txtLocalidad"
         txtLocalidad.ReadOnly = True
-        txtLocalidad.Size = New Size(184, 21)
+        txtLocalidad.Size = New Size(184, 22)
         txtLocalidad.TabIndex = 29
         ' 
         ' txtDireccion
         ' 
-        txtDireccion.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDireccion.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         txtDireccion.Location = New Point(82, 45)
         txtDireccion.Margin = New Padding(4, 3, 4, 3)
         txtDireccion.Name = "txtDireccion"
         txtDireccion.ReadOnly = True
-        txtDireccion.Size = New Size(462, 21)
+        txtDireccion.Size = New Size(462, 22)
         txtDireccion.TabIndex = 28
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(15, 80)
         Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(51, 13)
+        Label3.Size = New Size(56, 13)
         Label3.TabIndex = 27
         Label3.Text = "Localidad"
         Label3.TextAlign = ContentAlignment.TopRight
@@ -127,11 +127,11 @@ Partial Class RelevamientoEdificios
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.Location = New Point(16, 48)
         Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(50, 13)
+        Label2.Size = New Size(55, 13)
         Label2.TabIndex = 26
         Label2.Text = "Dirección"
         Label2.TextAlign = ContentAlignment.TopRight
@@ -139,11 +139,11 @@ Partial Class RelevamientoEdificios
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label1.Location = New Point(28, 17)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(40, 13)
+        Label1.Size = New Size(45, 13)
         Label1.TabIndex = 25
         Label1.Text = "Edificio"
         Label1.TextAlign = ContentAlignment.TopRight
@@ -152,7 +152,7 @@ Partial Class RelevamientoEdificios
         ' 
         ComboBox1.AutoCompleteMode = AutoCompleteMode.Append
         ComboBox1.AutoCompleteSource = AutoCompleteSource.ListItems
-        ComboBox1.Font = New Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
+        ComboBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ComboBox1.FormattingEnabled = True
         ComboBox1.Location = New Point(82, 14)
         ComboBox1.Margin = New Padding(4, 3, 4, 3)
@@ -162,12 +162,12 @@ Partial Class RelevamientoEdificios
         ' 
         ' MenuStrip1
         ' 
-        MenuStrip1.Font = New Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        MenuStrip1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         MenuStrip1.Items.AddRange(New ToolStripItem() {VerToolStripMenuItem, AccionesToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Padding = New Padding(7, 2, 0, 2)
-        MenuStrip1.Size = New Size(560, 28)
+        MenuStrip1.Size = New Size(560, 24)
         MenuStrip1.TabIndex = 49
         MenuStrip1.Text = "MenuStrip1"
         MenuStrip1.Visible = False
@@ -175,51 +175,59 @@ Partial Class RelevamientoEdificios
         ' VerToolStripMenuItem
         ' 
         VerToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ImpresorasToolStripMenuItem, SalasTeamsToolStripMenuItem})
+        VerToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         VerToolStripMenuItem.Name = "VerToolStripMenuItem"
-        VerToolStripMenuItem.Size = New Size(38, 24)
+        VerToolStripMenuItem.Size = New Size(35, 20)
         VerToolStripMenuItem.Text = "&Ver"
         ' 
         ' ImpresorasToolStripMenuItem
         ' 
+        ImpresorasToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ImpresorasToolStripMenuItem.Name = "ImpresorasToolStripMenuItem"
-        ImpresorasToolStripMenuItem.Size = New Size(163, 22)
+        ImpresorasToolStripMenuItem.Size = New Size(160, 22)
         ImpresorasToolStripMenuItem.Text = "&Impresoras"
         ' 
         ' SalasTeamsToolStripMenuItem
         ' 
+        SalasTeamsToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         SalasTeamsToolStripMenuItem.Name = "SalasTeamsToolStripMenuItem"
-        SalasTeamsToolStripMenuItem.Size = New Size(163, 22)
+        SalasTeamsToolStripMenuItem.Size = New Size(160, 22)
         SalasTeamsToolStripMenuItem.Text = "&Salas de reunión"
         ' 
         ' AccionesToolStripMenuItem
         ' 
         AccionesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CopiarDirecciónCompletaToolStripMenuItem, EditarValorToolStripMenuItem, ImprimirEtiquetaDeEnvíoToolStripMenuItem, ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem})
+        AccionesToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
-        AccionesToolStripMenuItem.Size = New Size(67, 24)
+        AccionesToolStripMenuItem.Size = New Size(64, 20)
         AccionesToolStripMenuItem.Text = "&Acciones"
         ' 
         ' CopiarDirecciónCompletaToolStripMenuItem
         ' 
+        CopiarDirecciónCompletaToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         CopiarDirecciónCompletaToolStripMenuItem.Name = "CopiarDirecciónCompletaToolStripMenuItem"
-        CopiarDirecciónCompletaToolStripMenuItem.Size = New Size(330, 22)
+        CopiarDirecciónCompletaToolStripMenuItem.Size = New Size(317, 22)
         CopiarDirecciónCompletaToolStripMenuItem.Text = "&Copiar dirección completa"
         ' 
         ' EditarValorToolStripMenuItem
         ' 
+        EditarValorToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         EditarValorToolStripMenuItem.Name = "EditarValorToolStripMenuItem"
-        EditarValorToolStripMenuItem.Size = New Size(330, 22)
+        EditarValorToolStripMenuItem.Size = New Size(317, 22)
         EditarValorToolStripMenuItem.Text = "&Editar valor"
         ' 
         ' ImprimirEtiquetaDeEnvíoToolStripMenuItem
         ' 
+        ImprimirEtiquetaDeEnvíoToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ImprimirEtiquetaDeEnvíoToolStripMenuItem.Name = "ImprimirEtiquetaDeEnvíoToolStripMenuItem"
-        ImprimirEtiquetaDeEnvíoToolStripMenuItem.Size = New Size(330, 22)
+        ImprimirEtiquetaDeEnvíoToolStripMenuItem.Size = New Size(317, 22)
         ImprimirEtiquetaDeEnvíoToolStripMenuItem.Text = "&Imprimir etiqueta de envío"
         ' 
         ' ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem
         ' 
+        ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
         ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem.Name = "ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem"
-        ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem.Size = New Size(330, 22)
+        ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem.Size = New Size(317, 22)
         ImprimirEtiquetaDeEnvíodomicilioParticularToolStripMenuItem.Text = "I&mprimir etiqueta de envío (domicilio particular)"
         ' 
         ' PrintDialog1
