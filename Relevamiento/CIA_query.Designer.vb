@@ -34,6 +34,8 @@ Partial Class CIA_query
         Label4 = New Label()
         TextBox4 = New TextBox()
         Label5 = New Label()
+        DataGridView1 = New DataGridView()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' txtSerial
@@ -147,11 +149,31 @@ Partial Class CIA_query
         Label5.TabIndex = 43
         Label5.Text = "Nombre y Apellido"
         ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.AllowUserToAddRows = False
+        DataGridView1.AllowUserToDeleteRows = False
+        DataGridView1.AllowUserToResizeRows = False
+        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells
+        DataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically
+        DataGridView1.Location = New Point(380, 12)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.ReadOnly = True
+        DataGridView1.RowHeadersVisible = False
+        DataGridView1.RowTemplate.Height = 25
+        DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
+        DataGridView1.ShowEditingIcon = False
+        DataGridView1.Size = New Size(755, 155)
+        DataGridView1.TabIndex = 45
+        ' 
         ' CIA_query
         ' 
         AutoScaleDimensions = New SizeF(6F, 13F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(386, 179)
+        ClientSize = New Size(1147, 179)
+        Controls.Add(DataGridView1)
         Controls.Add(TextBox4)
         Controls.Add(Label5)
         Controls.Add(TextBox3)
@@ -171,6 +193,7 @@ Partial Class CIA_query
         Name = "CIA_query"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Consulta CIA (experimental)"
+        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -187,4 +210,5 @@ Partial Class CIA_query
     Friend WithEvents Label4 As Label
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents DataGridView1 As DataGridView
 End Class

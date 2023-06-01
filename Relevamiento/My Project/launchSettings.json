@@ -1,7 +1,8 @@
 {
   "profiles": {
     "Relevamiento": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "sqlDebugging": true
     }
   }
 }

@@ -89,13 +89,13 @@ Partial Class RelevamientoMenu
         ' 
         ' ConsultaCIAToolStripMenuItem
         ' 
+        ConsultaCIAToolStripMenuItem.Enabled = False
         ConsultaCIAToolStripMenuItem.Name = "ConsultaCIAToolStripMenuItem"
         ConsultaCIAToolStripMenuItem.Size = New Size(190, 22)
         ConsultaCIAToolStripMenuItem.Text = "Consulta &CIA"
         ' 
         ' ConsultaGarantíaDellToolStripMenuItem
         ' 
-        ConsultaGarantíaDellToolStripMenuItem.Enabled = False
         ConsultaGarantíaDellToolStripMenuItem.Name = "ConsultaGarantíaDellToolStripMenuItem"
         ConsultaGarantíaDellToolStripMenuItem.Size = New Size(190, 22)
         ConsultaGarantíaDellToolStripMenuItem.Text = "Consulta &garantía Dell"
